@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kohi PvP</title>
+    <style>
+        body {
+            background-image: url('images/fondo.jpg');
+            background-size: cover; 
+            background-repeat: no-repeat;
+            color: dimgray;
+            text-align: center; 
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 20px; 
+        }
+        
+        button {
+            background-color: transparent;
+            padding: 10px 20px;
+            font-size: 16px; 
+            color: white; 
+            margin: 10px;
+            border: 2px solid darkred; 
+            border-radius: 10px;
+            width: 150px; 
+            height: 50px; 
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0 0 7px #FF3939;
+        }
+
+        button:hover {
+            background-color: #643131;
+            color: black;
+        }
+
+        h2, h3 {
+            margin: 20px 0;
+        }
+        j {
+          color: #05FFF6;
+        } 
+        
+        footer {
+            margin-top: 50px;
+            font-size: 12px;
+            color: #7E7F86;
+        }
+
+        .image-small {
+            width: 60px;
+            height: auto;
+            
+        }
+
+        .image-large {
+            max-width: 30%; 
+            height: auto; 
+            margin-top: 10px;
+        }
+
+        .background-text {
+            background-image: url('');
+            background-size: cover; 
+            padding: 10px; 
+            border-radius: 5px; 
+        }
+
+        .players-online {
+            color: #05FFF6; 
+            font-size: 11px;
+            margin-top: 15px;
+            padding: 8px 10px;
+            border: 1px solid black;
+            font-family: Arial, sans-serif; 
+            background-color: rgba(255, 0, 0, 0.2); 
+            border-radius: 3px;
+            display: inline-block; 
+            font-weight: bold;
+        }
+    </style>
+    <script src="players.js"></script>
+</head>
+<body>
+
+    <h2><img src="images/logo.png"  class="image-small" ></h2> 
+
+    <p class="background-text">Welcome to the Kohi MCPE website, here you will find basic things to guide you on your adventure through the server </p>
+
+    <img src="images/kohi.png" class="image-large"> 
+    <h2></h2>
+    <button onclick="window.location.href='events.html'">EVENTS</button>
+      <button onclick="window.location.href='ranks.html'">RANKS</button>
+    <button onclick="window.location.href='https://discord.gg/nm38fzAM'">DISCORD</button>
+    
+    <button onclick="window.location.href='https://kohipvp.tebex.io/'">TEBEX</button>
+
+    <h2></h2>
+    <div class="players-online" id="players-online">
+        Players Online: Loading...
+    </div>
+
+    <footer>
+        Kohi PvP Official Website
+    </footer>
+
+</body>
+</html>

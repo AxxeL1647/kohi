@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangos</title>
+    <style>
+        body {
+            background-image: url('images/fondo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: dimgray;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        button {
+            background-color: transparent;
+            padding: 10px;
+            font-size: 0;
+            color: white;
+            margin: 10px;
+            border: 2px solid #5D5D5D;
+            border-radius: 10px;
+            width: 200px;
+            height: 80px;
+            cursor: pointer;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        button:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+            transform: scale(1.05); 
+        }
+        .button-box {
+            background-color: rgba(0, 0, 0, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block; 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+            margin: 20px auto;
+        }
+        h2, h3 {
+            margin: 20px 0;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 12px;
+            color: #707070;
+        }
+        p {
+          color:#FFFFFF;
+        }
+        .image-large {
+            max-width: 60%;
+            height: auto;
+            margin-top: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+       .image-r {
+            max-width: 30%; 
+            height: auto; 
+            margin-top: 4px;
+            border-radius: 0px;
+        }
+    </style>
+</head>
+<body>
+
+   <h2></h2><img src="images/ranks.png"  class="image-r"><h2>
+    
+    <div class="button-box">
+        <button style="background-image: url('images/living.png');" onclick="window.location.href='ranks/living.html'"></button>
+        <button style="background-image: url('images/ares.png');" onclick="window.location.href='ranks/ares.html'"></button>
+        <button style="background-image: url('images/leat.png');" onclick="window.location.href='ranks/leat.html'"></button>
+        <button style="background-image: url('images/legionary.png');" onclick="window.location.href='ranks/legionary.html'"></button>
+        <button style="background-image: url('images/king.png');" onclick="window.location.href='ranks/king.html'"></button>
+        <button style="background-image: url('images/emperor.png');" onclick="window.location.href='ranks/emperor.html'"></button>
+        <button style="background-image: url('images/kohir.png');" onclick="window.location.href='ranks/kohi.html'"></button>
+    </div>
+
+    <footer onclick="window.location.href='index.html'">Kohi PvP Official Website</footer>
+</body>
+</html>

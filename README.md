@@ -1,1 +1,1 @@
-Todas re contra, re putas.
+Website created for the purpose of learning HTML, CSS and JS
